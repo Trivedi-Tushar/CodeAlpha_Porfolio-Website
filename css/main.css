@@ -578,9 +578,22 @@ textarea{
 
 @media screen and (width < 568px){
   
+  .container {
+    max-width: 768px;
+    margin-left: 0.5rem;
+    margin-right: -1.9rem;
+  }
+
+  .button{
+    font-size: 0.7rem;
+      padding: 0.1rem 0.4rem;
+  }
+
   .navbar-main{
     display: none;
   }
+
+
   .section1 {
     display: flex;
     flex-direction: column-reverse;
@@ -588,6 +601,9 @@ textarea{
     align-items: center;
     margin: 2rem;
   }
+
+
+
   .about-container{
     display: flex;
     justify-content: space-around;
@@ -597,20 +613,52 @@ textarea{
    
   }
   .about-img {
-    width: 30%;
+    width: 35%;
     margin: 0.1rem auto 0.1rem;
     border-radius: 8.5rem;
-}
-.about-description {
-  text-align: center;
-  margin: 0.1rem auto 1.5rem;
-  font-size: 0.8rem;
+  }
+  .about-description {
+    text-align: center;
+    margin: 0.1rem -4rem 1.5rem;
+    font-size: 0.9rem;
+  }
+
+
+
+  .skills-section{
+    margin: 1rem 2rem;
+  }
+
+
+  .qualification-section {
+    margin: 0.1rem 0.1rem;
+  }
+
+
+
+  .contact-section{
+    
+    margin: 1rem 2rem;
+  }
+
+  .contact-container {
+    column-gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0.1rem auto 0.1rem
+    
+  }
+  
+
+  .footer-bg {
+    background-color: #57c9e0;
+    padding: 1rem 0px 1rem;
+    margin: 1rem 0rem 0rem;
+
+  }
 }
 
-.qualification-section {
-  margin: 0.1rem 0.1rem;
-}
-}
 @media screen and (568px <= width <= 736px){
   
   .navbar-main{
@@ -623,11 +671,52 @@ textarea{
     /* justify-content: space-around; */
     align-items: center;
     margin: 2rem;
-}
+  }
 
-.qualification-section {
-  margin: 1.2rem 2rem;
-}
+  .contact-container {
+    column-gap: 2rem;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    margin: 0.1rem 1rem 0.1rem
+    
+  }
+
+  .about-img {
+    width: 35%;
+    margin: 0.1rem auto 0.1rem;
+    border-radius: 8.5rem;
+  }
+  .about-description {
+    text-align: center;
+    margin: 0.1rem -4rem 1.5rem;
+    font-size: 0.9rem;
+  }
+
+
+
+  .skills-section{
+    margin: 1rem 2rem;
+  }
+
+
+  .qualification-section {
+    margin: 1.2rem 2rem;
+  }
+
+  .contact-section{
+    
+    margin: 1rem 2rem;
+  }
+
+  /* .contact-container {
+    column-gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0.1rem auto 0.1rem
+    
+  } */
 
 }
 
@@ -658,14 +747,14 @@ textarea{
     width: 30%;
     margin: 0.1rem auto 0.1rem;
     border-radius: 8.5rem;
-}
+  }
 
-.about-data {
-  text-align: center;
-  width: 70%;
-  font-size: 1.3rem;
-  margin: 2rem auto;
-}
+  .about-data {
+    text-align: center;
+    width: 70%;
+    font-size: 1.3rem;
+    margin: 2rem auto;
+  }
 
 }
 
